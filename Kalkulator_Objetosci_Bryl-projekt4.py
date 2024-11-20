@@ -86,24 +86,36 @@ def walec():
     
 
 print("1. Objetosc Szescianu")
-print("2. Objetosc prostopadloscianu o podstawie prostokata")# reszta do dokonczenia czyli  trzeba zmienic nazwy w printach i wyborach i dodac kilka printow i wyborow , gotowe do printa nr2
-print("3. Pole trójkąta")
-print("4. Pole koła")
-print("5. Pole trapezu")
- 
-wybor = input("Wybierz opcję (1-5): ")
+print("2. Objetosc prostopadloscianu")
+print("3. Objetosc graniastoslupa o podstawie trojkata")
+print("4. Objetosc graniastoslupa o podstawie trapezu")
+print("5. Objetosc ostroslupa o podstawie prostokata")
+print("6. Objetosc ostroslupa o podstawie trojkata")
+print("7. Objetosc kuli")
+print("8. Objetosc stozka")
+print("9. Objetosc walca")
+
+wybor = input("Wybierz opcję (1-9): ")
  
 if wybor == "1":
-    print(f"Pole prostokąta: {pole_prostokata():.2f}")
+    print(f"Objetosc Szescianu: {Objetosc_Szescianu():.2f}")
 elif wybor == "2":
-    print(f"Pole kwadratu: {pole_kwadratu():.2f}")
+    print(f"Objetosc prostopadloscianu: {Objetosc_prostpadloscianiu():.2f}")
 elif wybor == "3":
-    print(f"Pole trójkąta: {pole_trojkata():.2f}")
+    print(f"Objetosc graniastoslupa o podstawie trojkata: {Objetosc_graniastoslupa_o_podstawie_trojkata():.2f}")
 elif wybor == "4":
-    print(f"Pole koła: {pole_kola():.2f}")
+    print(f"Objetosc graniastoslupa o podstawie trapezu: {Objetosc_graniastolupa_o_podstawie_trapezu():.2f}")
 elif wybor == "5":
-    print(f"Pole trapezu: {pole_trapezu():.2f}")
- 
+    print(f"Objetosc ostroslupa o podstawie prostokata: {Objetosc_ostroslupa_o_podstawie_prostokata():.2f}")
+elif wybor == "6":
+    print(f"Objetosc ostroslupa o podstawie trojkata: {Objetosc_ostroslupa_o_podstawie_trojkata():.2f}")
+elif wybor == "7":
+    print(f"Objetosc kuli: {Objetosc_kuli():.2f}")
+elif wybor == "8":
+    print(f"Objetosc stozka: {Objetosc_stozka():.2f}")
+elif wybor == "9":
+    print(f"Objetosc walca: {Objetosc_walca():.2f}")
+    
 else:
     print("Nieprawidłowy wybór. Spróbuj ponownie.")
  

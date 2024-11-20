@@ -1,6 +1,7 @@
 import math
 
 print("Witaj w programie obliczajacym obejtosci bryl")
+print("Wybierz bryle , ktorej objetosc chcesz obliczyc:   ")
 
 def szescian():
     a = int(input("Podaj dlugosc krawedzi: "))

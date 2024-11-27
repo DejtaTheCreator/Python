@@ -8,7 +8,7 @@ def szescian():
     if a>0:
         return a**3
     else:
-        return("Krawedzie nie moga byc ujemne lub rowne 0")
+        print("Krawedzie nie moga byc ujemne lub rowne 0")
 
 def prostopadloscian():
     a = int(input("Podaj dlugosc 1 krawedzi: "))
@@ -17,7 +17,7 @@ def prostopadloscian():
     if a>0 and b>0 and c>0:
         return a*b*c
     else:
-        return("Zadna z krawedzi nie moze byc mniejsza lub rowna 0")
+        print("Zadna z krawedzi nie moze byc mniejsza lub rowna 0")
 
 def graniastoslup():#trojkat w podstawie
     a = int(input("Podaj dlugosc 1 krawedzi podstawy: "))
@@ -27,7 +27,7 @@ def graniastoslup():#trojkat w podstawie
     if Pp>0 and H>0:
         return Pp*H
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
 
 def graniastoslup2():#trapez w podstawie
     a = int(input("Podaj dlugosc 1 podstawy podstawy graniastoslupa: "))
@@ -38,7 +38,7 @@ def graniastoslup2():#trapez w podstawie
     if Pp>0 and H>0:
         return Pp*H
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
 
 def ostroslup():#prostokat w podstawie
     a = int(input("Podaj dlugosc 1 krawedzi podstawy: "))
@@ -48,7 +48,7 @@ def ostroslup():#prostokat w podstawie
     if Pp>0 and H>0:
         return Pp*H/3
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
 
 def ostroslup2():#trojkat w podstawie
     a = int(input("Podaj dlugosc krawedzi podstawy: "))
@@ -58,14 +58,14 @@ def ostroslup2():#trojkat w podstawie
     if Pp>0 and H>0:
         return Pp*H/3
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
 
 def kula():
    r = int(input("Podaj promien kuli :")) 
    if r>0:
         return (4/3*math.pi*r**3)
    else:
-       return("Promien nie moze byc ujemny")
+       print("Promien nie moze byc ujemny")
    
 def stozek():
     r = int(input("Wprowadz promien podstawy: "))
@@ -73,7 +73,7 @@ def stozek():
     if r>0 and H>0:
         return (math.pi*r**2*H/3)
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
 
 def walec():
     r = int(input("Podaj promien podstawy: "))
@@ -81,7 +81,7 @@ def walec():
     if r>0 and H>0:
         return (math.pi*r**2*H)
     else:
-        return("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
+        print("Zadna z dlugosci nie moze byc mniejsza lub rowna 0")
     
 
 print("1. Objetosc_Szescianu")
@@ -120,26 +120,3 @@ else:
  
 
 #KONIEC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -119,7 +119,7 @@ else:
     print("Nieprawidłowy wybór. Spróbuj ponownie.")
  
 
-
+#KONIEC
 
 
 

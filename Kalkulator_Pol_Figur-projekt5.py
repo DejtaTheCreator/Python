@@ -63,7 +63,7 @@ def kolo():
 def szesciakat():
     a = int(input("Podaj dlugosc boku szesciakata foremnego: "))
     if a>0:
-        return (3*(a**2)*(math.sqrt(2)))
+        return (3*(a**2)*(math.sqrt(3)))
     else:
         print("Promien kola nie moze byc mniejszy lub rowny 0")
 
@@ -99,4 +99,4 @@ elif wybor == "8":
 else:
     print("Nieprawidłowy wybór. Spróbuj ponownie.")
 
-#KONIEC
+#KONIE
